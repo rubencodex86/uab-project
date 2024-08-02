@@ -1,0 +1,9 @@
+.container-head {
+    background-image: url("/static/images/slideshow_entrada-Palacio.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
