@@ -1,9 +1,70 @@
-.container-head {
-    background-image: url("/static/images/slideshow_entrada-Palacio.jpg");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+
+<---------- Fonts Usage ---------->
+
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*/
+
+.container-header,
+.header,
+.main-menu ul{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-header {
     width: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: black;
+    justify-content: center;
+}
+
+.header {
+    /*background-color: darkred;*/
+    width: 100%;
+    max-width: 66%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-menu {
+    /*background-color: antiquewhite;*/
+    width: 66%;
+}
+
+.main-menu ul {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-link {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.menu-link:hover {
+    border-bottom: 4px solid whitesmoke;
 
 }
